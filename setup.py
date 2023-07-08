@@ -16,9 +16,6 @@ setuptools.setup(
     description='a package for txt-summarization built using transformers as its core',
 
     url=f"https://github.com/'{AUTHORS_NAME1}/{SRC_REPO}",
-    projects_url={
-        'bug tracker':f" https://github.com/{AUTHORS_NAME1}/{SRC_REPO}/issues"
-    },
-    package_dir={" ":"src"},
+    package_dir={"":"src"},
     packages=setuptools.find_packages(where="src")
 )
