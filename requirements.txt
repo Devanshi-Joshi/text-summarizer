@@ -17,4 +17,4 @@ ensure
 fastapi
 jinja 
 uvicorn
--e .
+-e .box
