@@ -4,7 +4,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
-project_name = "textSummarizer"
+project_name = "text-summarizer"
 
 list_of_files = [
     #use: whenever we have to do the CI/CD deployment, this will automatically take your code from github and deploy
